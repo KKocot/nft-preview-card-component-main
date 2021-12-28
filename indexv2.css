@@ -1,0 +1,119 @@
+html,
+body {
+  background-color: #0d192b;
+  color: white;
+  font-family: "Outfit", arial;
+  margin: 0;
+}
+.card {
+  margin: 10em auto;
+  -webkit-box-shadow: 1px 3px 88px 9px #000000;
+  box-shadow: 1px 3px 88px 9px #000000;
+  width: 280px;
+  height: auto;
+  background: #14253d;
+  border-radius: 10px;
+  padding: 25px;
+  position: relative;
+}
+.hover {
+  position: relative;
+  width: 50%;
+}
+.eye {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  align-items: center;
+  padding: 116px;
+  border-radius: 10px;
+}
+.pic {
+  opacity: 1;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  width: 280px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.wwdwaw {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.hover:hover .eye {
+  opacity: 1;
+  background-color: rgba(0, 255, 247, 0.5);
+}
+.eq {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.eq:hover {
+  color: hsl(178, 100%, 50%);
+}
+.content {
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+  margin-bottom: 25px;
+}
+.aboveLine {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-bottom: 15px;
+}
+.E {
+  display: flex;
+  font-weight: 400;
+  color: hsl(178, 100%, 50%);
+}
+.E > div {
+  padding: 1px 5px;
+}
+.D {
+  display: flex;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+.D > div {
+  padding: 1px 5px;
+  white-space: nowrap;
+}
+.line {
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+  margin-bottom: 12px;
+}
+footer {
+  display: flex;
+}
+.profilPic {
+  border-radius: 100%;
+  border: solid 1px white;
+  height: 25px;
+}
+.CoName {
+  display: flex;
+  padding: 5px 15px;
+}
+.Co {
+  color: hsl(215, 51%, 70%);
+}
+.name {
+  color: white;
+}
+.name:hover {
+  color: hsl(178, 100%, 50%);
+}
+.attribution {
+  align-self: end;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -5,8 +5,6 @@ html {
 }
 body {
   background-color: hsl(217, 54%, 11%);
-  font-size: 18px;
-
   color: hsl(0, 0%, 100%);
 }
 .card > img {
@@ -23,8 +21,11 @@ body {
 
 .content {
   font-weight: 300;
+  color: hsl(215, 51%, 70%);
 }
 .card {
+  -webkit-box-shadow: 1px 3px 88px 9px #000000;
+  box-shadow: 1px 3px 88px 9px #000000;
   margin: 10% auto;
   padding: 25px;
   height: auto;
@@ -39,19 +40,24 @@ body {
 
 .eth {
   color: hsl(178, 100%, 50%);
-  font-weight: 600;
+  font-weight: 300;
+}
+.date {
+  float: right;
+  color: hsl(215, 51%, 70%);
 }
 .line {
   border-bottom: solid hsl(215, 32%, 27%);
 }
 .underline {
-  margin: auto;
-  display: flex;
+  display: inline-flex;
 }
-
+.underline > div {
+  padding-top: auto;
+}
 .underline div > img {
   border-radius: 100%;
-  border: solid white;
+  border: solid 1px white;
   font-weight: 300;
   height: 25px;
 }
